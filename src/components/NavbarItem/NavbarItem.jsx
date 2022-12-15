@@ -1,3 +1,5 @@
+import "./NavbarItem.css";
+
 /**
  * Affiche un élément de liste
  * @param {text:string} item

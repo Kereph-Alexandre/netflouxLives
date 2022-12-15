@@ -1,0 +1,5 @@
+ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}

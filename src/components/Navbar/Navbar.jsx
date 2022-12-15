@@ -1,3 +1,4 @@
+import "./Navbar.css";
 import NavbarItem from "../NavbarItem/NavbarItem";
 
 /**
