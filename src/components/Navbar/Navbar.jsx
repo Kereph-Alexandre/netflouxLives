@@ -6,7 +6,6 @@ import NavbarItem from "../NavbarItem/NavbarItem";
  * @returns La liste de liens
  */
 export default function Navbar({ items }) {
-  console.log(items);
   return (
     <>
       <ul>
