@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 
+import "./ContentCompatibility.css";
 /**
  * Affiche la compatibilité d'un média au profil utilisateur
  * @param {compatibility:number} props
@@ -7,11 +8,9 @@ import { Icon } from "@iconify/react";
  */
 export default function ContentCompatibility(props) {
   return (
-    <aside className="contentCompatibility">
-      <p>
-        <Icon icon="material-symbols:thumb-up-rounded" />
-        {props.compatibility}%
-      </p>
-    </aside>
+    <span className="contentCompatibility">
+      <Icon icon="material-symbols:thumb-up-rounded" />
+      {props.compatibility}%
+    </span>
   );
 }

@@ -1,7 +1,7 @@
-import ContentCompatibility from "../ContentCompatibility/ContentCompatibility";
-import ContentEvaluation from "../ContentEvaluation/ContentEvaluation";
 import DescribeText from "../DescribeText/DescribeText";
 import DescribeTitle from "../DescribeTitle/DescribeTitle";
+
+import "./DescribePanel.css";
 
 /**
  * Affiche les différentes information relatives à un média (film, série, chaine YT, musique, jeu)
@@ -17,8 +17,6 @@ export default function DescribePanel(props) {
     <article className="describePanel">
       <DescribeTitle titre={props.titre} />
       <DescribeText text={props.text} />
-      <ContentCompatibility compatibility={props.compatibility} />
-      <ContentEvaluation note={props.note} />
     </article>
   );
 }
