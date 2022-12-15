@@ -1,8 +1,12 @@
+import { Icon } from "@iconify/react";
+
 export default function ContentCompatibility(props) {
   return (
-    <aside>
-      <img src="/logo192.png" alt="" />
-      <p>{props.compatibility}%</p>
+    <aside className="contentCompatibility">
+      <p>
+        <Icon icon="material-symbols:thumb-up-rounded" />
+        {props.compatibility}%
+      </p>
     </aside>
   );
 }
