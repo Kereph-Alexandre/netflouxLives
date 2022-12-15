@@ -8,7 +8,9 @@ import "./NavbarItem.css";
 export default function NavbarItem(item) {
   return (
     <>
-      <li className="headerNavbarItem">{item.text}</li>
+      <li className="headerNavbarItem">
+        <a href={item.text}>{item.text}</a>
+      </li>
     </>
   );
 }
