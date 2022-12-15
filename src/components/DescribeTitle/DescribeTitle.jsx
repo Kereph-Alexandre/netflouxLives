@@ -1,3 +1,8 @@
+/**
+ * Affiche le titre du média
+ * @param {title : string} props
+ * @returns le titre du média
+ */
 export default function DescribeTitle(props) {
   return (
     <>
