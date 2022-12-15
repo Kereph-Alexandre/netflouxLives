@@ -1,0 +1,9 @@
+.contentCompatibility {
+  background-color: rgba(108, 74, 182, 0.5);
+  border-radius: 10px;
+
+  padding: 0.5em;
+  margin: 0.5em;
+
+  font-size: 1.2em;
+}
