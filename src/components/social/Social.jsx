@@ -1,4 +1,6 @@
 import { Icon } from '@iconify/react';
+import './Social.css';
+
 
 /**
  * Icône des réseaux sociaux
@@ -7,6 +9,6 @@ import { Icon } from '@iconify/react';
  */
 export const Social = (props) => {
     return (
-        <Icon icon={props.iconName} color="#FDB927"/>
+        <Icon className= "social" icon={"entypo-social:" + props.iconName + "-with-circle"} color="#FDB927"  width="25" height="25"/>
     )
 }
