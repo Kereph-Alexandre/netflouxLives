@@ -1,3 +1,5 @@
+import "./Header.css";
+import LogoNetfloux from "../LogoNetFloux/LogoNetfloux";
 import Navbar from "../Navbar/Navbar";
 
 const navbarItems = [
@@ -11,10 +13,10 @@ const navbarItems = [
 
 export default function Header() {
   return (
-    <>
-      {/* Logo */}
+    <header>
+      <LogoNetfloux />
       <Navbar items={navbarItems} />
       {/* Connexion */}
-    </>
+    </header>
   );
 }
