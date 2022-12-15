@@ -14,7 +14,7 @@ const navbarItems = [
 
 export default function Header() {
   return (
-    <header>
+    <header className="mainHeader">
       <LogoNetfloux />
       <Navbar items={navbarItems} />
       <ConnecIcon

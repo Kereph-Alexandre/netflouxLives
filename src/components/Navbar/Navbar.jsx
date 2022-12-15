@@ -9,7 +9,7 @@ import NavbarItem from "../NavbarItem/NavbarItem";
 export default function Navbar({ items }) {
   return (
     <>
-      <ul>
+      <ul className="headerNavbar">
         {items.map((item, index) => (
           <NavbarItem text={item} key={index} />
         ))}
