@@ -1,7 +1,12 @@
-export default function NavbarItem({ text }) {
+/**
+ * Affiche un élément de liste
+ * @param {text:string} item
+ * @returns un élément de liste
+ */
+export default function NavbarItem(item) {
   return (
     <>
-      <li>{text}</li>
+      <li>{item.text}</li>
     </>
   );
 }
