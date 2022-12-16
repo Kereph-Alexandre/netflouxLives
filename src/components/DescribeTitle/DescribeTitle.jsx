@@ -1,3 +1,5 @@
+import "./DescribeTitle.css";
+
 /**
  * Affiche le titre du média
  * @param {title : string} props
@@ -6,7 +8,7 @@
 export default function DescribeTitle(props) {
   return (
     <>
-      <h2 className="ContentTitle">{props.titre}</h2>
+      <h2 className="contentTitle">{props.titre}</h2>
     </>
   );
 }
