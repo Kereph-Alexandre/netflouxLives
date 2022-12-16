@@ -1,0 +1,14 @@
+.landingPage {
+  background: rgb(92, 62, 171);
+  background: linear-gradient(
+    135deg,
+    rgba(92, 62, 171, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(230, 167, 23, 1) 100%
+  );
+  height: 200vh;
+}
+
+.pageContent {
+  margin: 0 10vw;
+}
