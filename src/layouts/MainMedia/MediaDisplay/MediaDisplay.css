@@ -2,6 +2,8 @@
   display: flex;
 
   color: #fdb927;
+
+  margin: 5vh 0;
 }
 
 .mediaDisplay > img {
@@ -13,4 +15,5 @@
   height: auto;
 
   margin: 0 2vw;
+  object-fit: cover;
 }

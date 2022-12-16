@@ -1,5 +1,5 @@
-import DescribeText from "../DescribeText/DescribeText";
-import DescribeTitle from "../DescribeTitle/DescribeTitle";
+import DescribeText from "../../../components/DescribeText/DescribeText";
+import DescribeTitle from "../../../components/DescribeTitle/DescribeTitle";
 
 import "./DescribePanel.css";
 
