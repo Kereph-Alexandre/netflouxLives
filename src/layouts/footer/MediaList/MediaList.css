@@ -1,0 +1,24 @@
+.listTitle {
+  color: #fdb927;
+}
+
+.listModule {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imageList {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.imageList img {
+  max-height: 100%;
+  margin: 1vw;
+  border: #fdb927 1px solid;
+  border-radius: 25px;
+}
