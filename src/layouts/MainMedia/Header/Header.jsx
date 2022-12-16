@@ -1,7 +1,7 @@
 import "./Header.css";
-import LogoNetfloux from "../LogoNetFloux/LogoNetfloux";
+import LogoNetfloux from "../../../components/LogoNetFloux/LogoNetfloux";
 import Navbar from "../Navbar/Navbar";
-import ConnecIcon from "../ConnectIcon/ConnectIcon";
+import ConnectIcon from "../../../components/ConnectIcon/ConnectIcon";
 
 const navbarItems = [
   "Films",
@@ -17,7 +17,7 @@ export default function Header() {
     <header className="mainHeader">
       <LogoNetfloux />
       <Navbar items={navbarItems} />
-      <ConnecIcon
+      <ConnectIcon
         src="assets\perm_identity_black_48dp.svg"
         alt="Icone de connexion au compte utilisateur"
         height="50px"

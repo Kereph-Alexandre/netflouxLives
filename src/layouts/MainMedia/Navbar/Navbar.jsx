@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import NavbarItem from "../NavbarItem/NavbarItem";
+import NavbarItem from "../../../components/NavbarItem/NavbarItem";
 
 /**
  * Retourne un composant NavbarItem pour chaque entrée de la liste passée en paramètre

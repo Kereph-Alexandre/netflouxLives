@@ -1,5 +1,5 @@
-import ContentCompatibility from "../ContentCompatibility/ContentCompatibility";
-import ContentEvaluation from "../ContentEvaluation/ContentEvaluation";
+import ContentCompatibility from "../../../components/ContentCompatibility/ContentCompatibility";
+import ContentEvaluation from "../../../components/ContentEvaluation/ContentEvaluation";
 import DescribePanel from "../DescribePanel/DescribePanel";
 
 import "./ContentPanel.css";
