@@ -1,0 +1,7 @@
+.describePanel {
+  background-color: rgba(108, 74, 182, 0.5);
+  border-radius: 25px;
+
+  max-height: 80%;
+  overflow: auto;
+}
