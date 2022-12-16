@@ -1,0 +1,15 @@
+.avatar a {
+  color: #fdb927;
+}
+
+.avatar a:hover {
+  color: #6c4ab6;
+}
+
+.avatar Icon {
+  height: 100px;
+}
+
+.avatar {
+  font-size: 2em;
+}

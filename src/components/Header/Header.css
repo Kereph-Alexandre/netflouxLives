@@ -1,0 +1,6 @@
+.mainHeader {
+  /* Marges gauche et droites assurées par la Page principale ? */
+  display: flex;
+
+  align-items: center;
+}

@@ -1,0 +1,8 @@
+.headerNavbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+
+  margin-top: 1em;
+}
