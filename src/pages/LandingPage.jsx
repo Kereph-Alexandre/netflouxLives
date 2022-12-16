@@ -1,4 +1,4 @@
-import Header from "../components/Header/Header";
+import Header from "../layouts/MainMedia/Header/Header";
 
 import "./LandingPage.css";
 
