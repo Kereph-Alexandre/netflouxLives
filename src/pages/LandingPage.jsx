@@ -1,3 +1,13 @@
+import Header from "../components/Header/Header";
+
+import "./LandingPage.css";
+
 export default function LandingPage() {
-  return <></>;
+  return (
+    <div className="landingPage">
+      <main className="pageContent">
+        <Header />
+      </main>
+    </div>
+  );
 }
