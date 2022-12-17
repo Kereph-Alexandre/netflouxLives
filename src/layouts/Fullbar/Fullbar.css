@@ -1,0 +1,31 @@
+.contact {
+  font-family: "Roboto", sans-serif;
+  background-color: #6c4ab6;
+  color: #fdb927;
+  border: none;
+  border-radius: 5px;
+  padding: 0 12px;
+  margin: 0 1vh;
+  font-weight: lighter;
+  font-size: 1.5em;
+
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.contact:hover {
+  background-color: #5c3eab;
+  color: #e6a717;
+}
+.searchOptions {
+  margin: 2vh 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.searchOptions .nextIcon {
+  color: #fdb927;
+  font-size: 1.5em;
+  padding: 0 0.2em;
+}

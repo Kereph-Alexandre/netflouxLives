@@ -3,5 +3,5 @@
   border-radius: 25px;
 
   max-height: 80%;
-  overflow: auto;
+  overflow-y: auto;
 }

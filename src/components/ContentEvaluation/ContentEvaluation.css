@@ -4,8 +4,13 @@
 
   height: 6vh;
   padding: 0.5em;
+  padding-bottom: 0;
   margin: 4vh 0 0 0;
 
   font-size: 1.5em;
   float: right;
+}
+
+.contentEvaluation > * {
+  padding: 0 5px;
 }
