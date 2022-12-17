@@ -1,24 +1,36 @@
 .listTitle {
   color: #fdb927;
+  text-align: left;
+  background: rgb(92, 62, 171);
+  background: linear-gradient(
+    90deg,
+    rgba(92, 62, 171, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(230, 167, 23, 0) 100%
+  );
+
+  padding: 10px 1em;
 }
 
 .listModule {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
 .imageList {
   height: 20vh;
-  width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  overflow: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .imageList img {
+  max-width: 20vw;
+  margin: auto;
   max-height: 100%;
   margin: 1vw;
+
   border: #fdb927 1px solid;
   border-radius: 25px;
 }

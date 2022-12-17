@@ -1,7 +1,7 @@
 import "./Header.css";
-import LogoNetfloux from "../../../components/LogoNetFloux/LogoNetfloux";
-import Navbar from "../Navbar/Navbar";
-import ConnectIcon from "../../../components/ConnectIcon/ConnectIcon";
+import LogoNetfloux from "../../components/LogoNetFloux/LogoNetfloux";
+import Navbar from "../MainMedia/Navbar/Navbar";
+import ConnectIcon from "../../components/ConnectIcon/ConnectIcon";
 
 const navbarItems = [
   "Films",

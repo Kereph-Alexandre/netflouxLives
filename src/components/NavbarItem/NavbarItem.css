@@ -11,6 +11,8 @@
 .headerNavbarItem a {
   text-decoration: none;
   color: #fdb927;
+
+  font-family: "Roboto", sans-serif;
 }
 .headerNavbarItem a:hover {
   color: #6c4ab6;
